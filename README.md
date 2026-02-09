@@ -10,3 +10,5 @@ CSS Grid
 Positioning
 Hover effects & transitions
 Responsive design (media queries)
+## Author
+Priyanshu Jha
