@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        /* Element selector  */
+        div{
+            /* background-color: red; */
+        }
+        /* Class Selector */
+        .red{
+            background-color: red;
+        }
+        /* ID Sector */
+        #green{
+            background-color:yellow;
+        }
+        /* child seclector */
+        div > p{
+            background-color: lightcoral;
+        }
+        /* descendant selector */
+        div p{
+            background-color: skyblue;
+        }
+        /* Universal selector */
+        *{
+            margin: 0;
+            padding: o;
+        }
+        /* pseudo selector */
+        a :visited{
+            color: black;
+        }
+        a :link{
+            color: violet;
+        }
+        :active{
+            color: green;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">
+        Iam a Div
+        <p>Iam a superstar of Bollywood</p>
+    </div>
+    <div id="green">
+        Iam a another div .
+        <article>
+            <p> Tere Bhai ka Naam kya hai Naam fortyseven hai</p>
+        </article>
+    </div>
+    <a href="https://www.google.com">Go to google</a>
+    <a href="https://www.instagram.com">Go to instagram</a>
+</body>
+</html>
