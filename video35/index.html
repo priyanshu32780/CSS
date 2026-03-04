@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box:first-child{
+            background-color: red;
+        } */
+         /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+         } */
+         /* .box:nth-child(even){
+            background-color: blue;
+         } */
+/* .box:nth-last-child(2){
+    background-color: red;
+} */
+ .boxes::before{
+    content: " Priyanshu is Good";
+    color: blue;
+ }
+ .boxes::after{
+    content: " Priyanshu is Good and very intaligent";
+    color: red;
+ }
+ ::selection{
+    background-color: red;
+    color: aqua;
+ }
+ .box::first-letter{
+    color: red;
+ }
+ input::placeholder{
+    color: blueviolet;
+ }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+<div class="box"> Hey i  am a boy</div>
+    <div class="box">Hey i am a boy</div>
+    <div class="box">Hey i am a boy</div>
+    <input type="text" placeholder="Type your name here">
+    </div>
+    
+</body>
+</html>
